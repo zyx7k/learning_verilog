@@ -1,4 +1,4 @@
-module using_supply_wire(a, b, c, f)
+module using_supply_wire(a, b, c, f);
  input a, b, c;
  output f;
  wire t1, t2;

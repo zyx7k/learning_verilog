@@ -1,4 +1,4 @@
-module half_Adder(sum, carry, a, b)
+module half_adder(sum, carry, a, b);
     input a, b;
     output sum, carry;
     xor gate1(sum, a, b);

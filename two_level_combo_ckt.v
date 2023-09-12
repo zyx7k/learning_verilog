@@ -1,4 +1,4 @@
-module two_level_comb_ckt(a, b, c, d, f)
+module two_level_comb_ckt(a, b, c, d, f);
 //Do not include intermediate wires in the input/output parameters of a module
     input a, b, c, d;
     output f;

@@ -1,4 +1,4 @@
-module simple_counter_with_rst(clk, rst, count);
+module 32_bit_counter_with_reset(clk, rst, count);
     input clk, rst;
     output [31:0] count;
     reg [31:0] count;

@@ -1,4 +1,5 @@
-module counter_with_async_rst(clk, rst, count)
+module 32_bit_counter_async_reset(clk, rst, count);
+//Don't forget ; on the end of module statement lmao
     input clk, rst;
     output [31:0] count;
     reg [31:0] count;
