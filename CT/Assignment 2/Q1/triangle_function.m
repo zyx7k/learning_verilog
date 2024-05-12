@@ -1,1 +1,0 @@
-function output = triangle_function()
